@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="Tra cứu"
+        android:icon="@drawable/finding"
+        android:enabled="true" />
+
+    <item
+        android:id="@+id/item2"
+        android:title="Thống kê"
+        android:icon="@drawable/trendingup"
+        android:enabled="true" />
+
+</menu>
