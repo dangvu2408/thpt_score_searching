@@ -55,8 +55,11 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/sbdInput"
                     android:hint="Số báo danh"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/sfpro_regular"
-                    android:inputType="number" />
+                    android:background="@drawable/inputbackground"
+                    android:inputType="number"
+                    android:padding="10dp"/>
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="45dp"
@@ -67,7 +70,7 @@
                     android:paddingRight="40dp"
                     android:layout_margin="10dp"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:fontFamily="@font/sfpro_bold"
                     android:background="@drawable/bottomnav_background"/>
                 <TextView
