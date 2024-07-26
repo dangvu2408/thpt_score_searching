@@ -51,6 +51,10 @@ public class TraCuuFrag extends Fragment {
         scoreGDCD = view.findViewById(R.id.gdcdScore);
         findBtn.setOnClickListener(v -> {
             String sobaodanh = inputSBD.getText().toString();
+            if (sobaodanh == null) {
+                noData.setVisibility(View.VISIBLE);
+                mainTitle.setText("Vui lòng nhập số báo danh!");
+            }
             ThongTinModel model = getScore(sobaodanh);
             if (model != null) {
                 noData.setVisibility(View.GONE);
