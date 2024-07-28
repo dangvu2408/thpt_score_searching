@@ -1,18 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <ImageView
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THỐNG KÊ ĐIỂM THI TNTHPT"
+        android:textColor="@color/black"
+        android:fontFamily="@font/sfpro_bold"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/main"
-        android:scaleType="centerCrop"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="HOME2"
-        android:textColor="@color/white"
-        android:fontFamily="@font/sfpro_bold"
-        android:textSize="20sp"/>
-</RelativeLayout>
+        android:scrollbars="none"
+        android:layout_marginBottom="75dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Phổ điểm môn Toán"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sfpro_semibold"
+                android:textSize="18sp"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/toan_chart_2024"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Phổ điểm môn Ngữ Văn"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sfpro_semibold"
+                android:textSize="18sp"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/van_chart_2024"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Phổ điểm môn Ngoại Ngữ"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sfpro_semibold"
+                android:textSize="18sp"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/ngoaingu_chart_2024"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Phổ điểm môn Vật Lí"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sfpro_semibold"
+                android:textSize="18sp"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/vatli_chart_2024"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Phổ điểm môn Hóa Học"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sfpro_semibold"
+                android:textSize="18sp"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/hoahoc_chart_2024"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

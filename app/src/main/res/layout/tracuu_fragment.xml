@@ -7,6 +7,12 @@
         android:layout_height="match_parent"
         android:src="@drawable/main"
         android:scaleType="centerCrop" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,8 +31,7 @@
             android:orientation="vertical">
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="80dp">
-            </TextView>
+                android:layout_height="80dp"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
@@ -119,7 +124,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -133,7 +138,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -147,7 +152,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -161,7 +166,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -175,7 +180,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -189,7 +194,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -203,7 +208,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -217,7 +222,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -231,7 +236,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                         </LinearLayout>
@@ -252,7 +257,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -267,7 +272,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -282,7 +287,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -297,7 +302,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -312,7 +317,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -327,7 +332,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -342,7 +347,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -357,7 +362,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                             <TextView
@@ -372,7 +377,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="#6B6868"
+                                android:background="#648EFA"
                                 android:layout_marginTop="@dimen/margin_1"
                                 android:layout_marginBottom="@dimen/margin_1"/>
                         </LinearLayout>
