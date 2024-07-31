@@ -77,6 +77,50 @@
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:id="@+id/hoahoc_chart_2024"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6. Phổ điểm môn Sinh Học"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sfpro_semibold"
+                android:textSize="18sp"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/sinhhoc_chart_2024"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7. Phổ điểm môn Lịch Sử"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sfpro_semibold"
+                android:textSize="18sp"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/lichsu_chart_2024"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8. Phổ điểm môn Địa Lí"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sfpro_semibold"
+                android:textSize="18sp"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/diali_chart_2024"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9. Phổ điểm môn Giáo Dục Công Dân"
+                android:textColor="@color/black"
+                android:fontFamily="@font/sfpro_semibold"
+                android:textSize="18sp"/>
+            <com.github.mikephil.charting.charts.BarChart
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/gdcd_chart_2024"/>
         </LinearLayout>
     </ScrollView>
 
