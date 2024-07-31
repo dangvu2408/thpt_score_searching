@@ -4,7 +4,7 @@ App có chức năng tra cứu điểm thi TNTHPT 2024 và thống kê phổ đi
 
 ## 1. Về phần dữ liệu
 
-App sử dụng dữ liệu thô điểm thi Tốt nghiệp Trung học phổ thông năm 2024, chi tiết [tại đây](https://github.com/anhdung98/diem_thi_2024/)
+App sử dụng dữ liệu thô điểm thi Tốt nghiệp Trung học phổ thông năm 2024, chi tiết [tại đây](https://github.com/anhdung98/diem_thi_2024/).
 File dữ liệu thô là một file .csv có dạng như hình bên dưới
 ![Ảnh chụp màn hình 2024-07-31 175036](https://github.com/user-attachments/assets/87b28fc2-e83e-4655-a181-c4e0d4a904db)
 Sử dụng SQLite để hiển thị dữ liệu dưới dạng bảng như hình
