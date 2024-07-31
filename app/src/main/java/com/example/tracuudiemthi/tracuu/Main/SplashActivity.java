@@ -14,43 +14,14 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_layout);
-        process();
-    }
-
-    private void process() {
-        new operation().execute("");
-    }
-    private class operation extends AsyncTask<String, Void, String> {
-        private long startTime;
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            startTime = System.currentTimeMillis();
-        }
-
-        @Override
-        protected String doInBackground(String... params) {
-            for (int i = 0; i < 5; i++) {
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    Thread.interrupted();
-                }
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                finish();
             }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(String result) {
-            long endTime = System.currentTimeMillis();
-            long duration = endTime - startTime;
-
-            new Handler().postDelayed(() -> {
-                Intent mainIntent = new Intent(SplashActivity.this, MainActivity.class);
-                SplashActivity.this.startActivity(mainIntent);
-                SplashActivity.this.finish();
-            }, duration);
-        }
+        }, 3600000);
     }
 }
