@@ -79,12 +79,15 @@ Hai chữ số đầu tiên của số báo danh là mã Hội đồng thi (tỉ
 62 – TỈNH ĐIỆN BIÊN\
 63 – TỈNH ĐĂK NÔNG\
 64 – TỈNH HẬU GIANG \
-![anh1](https://github.com/user-attachments/assets/afb110dd-1716-4dd1-9d03-a514ce591431)
+![anh1](https://github.com/user-attachments/assets/afb110dd-1716-4dd1-9d03-a514ce591431 =x250)
 
 b. Hiển thị phổ điểm thi các môn trong kì thi TNTHPT 2024 \
 Hiển thị phổ điểm bằng cách sử dụng các lệnh truy vấn, tuy nhiên sẽ có một số sai số. Phổ điểm chính xác vui lòng tham khảo của Bộ GD&DT
-![anh3](https://github.com/user-attachments/assets/88394d82-9506-4f73-84fe-00b3a8274466) ![anh2](https://github.com/user-attachments/assets/8850ed90-6136-4bd2-8c60-dc12d5b75f02) ![anh4](https://github.com/user-attachments/assets/6079fbe1-ac61-4aba-a93a-f9e2c43dd7cc)
-![anh5](https://github.com/user-attachments/assets/746830f9-a791-4102-ad2f-9717b0c928f1) ![anh6](https://github.com/user-attachments/assets/3e559ad2-680e-4887-ab1a-9bec7f7369dc)
+![anh3](https://github.com/user-attachments/assets/88394d82-9506-4f73-84fe-00b3a8274466 =x250) 
+![anh2](https://github.com/user-attachments/assets/8850ed90-6136-4bd2-8c60-dc12d5b75f02 =x250) 
+![anh4](https://github.com/user-attachments/assets/6079fbe1-ac61-4aba-a93a-f9e2c43dd7cc =x250)
+![anh5](https://github.com/user-attachments/assets/746830f9-a791-4102-ad2f-9717b0c928f1 =x250)
+![anh6](https://github.com/user-attachments/assets/3e559ad2-680e-4887-ab1a-9bec7f7369dc =x250)
 
 
 
