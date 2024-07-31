@@ -79,7 +79,7 @@ Hai chữ số đầu tiên của số báo danh là mã Hội đồng thi (tỉ
 62 – TỈNH ĐIỆN BIÊN\
 63 – TỈNH ĐĂK NÔNG\
 64 – TỈNH HẬU GIANG \
-<img src="https://github.com/user-attachments/assets/afb110dd-1716-4dd1-9d03-a514ce591431" alt="drawing" width="250"/>
+<img src="https://github.com/user-attachments/assets/afb110dd-1716-4dd1-9d03-a514ce591431" alt="drawing" width="250"/> \
 b. Hiển thị phổ điểm thi các môn trong kì thi TNTHPT 2024 \
 Hiển thị phổ điểm bằng cách sử dụng các lệnh truy vấn, tuy nhiên sẽ có một số sai số. Phổ điểm chính xác vui lòng tham khảo của Bộ GD&DT
 
