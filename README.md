@@ -15,9 +15,74 @@ Từ dữ liệu đã có, thực hiện các lệnh truy vấn để hiển th�
 
 a. Tra cứu điểm thi TNTHPT 2024
 Người dùng nhập số báo danh (gồm 8 số trên tờ giấy dự thi hoặc trên cổng thông tin dự thi của Bộ Giáo dục và Đào tạo)
+Hai chữ số đầu tiên của số báo danh là mã Hội đồng thi (tỉnh/thành phố) của thí sinh dự thi, cụ thể:
+01 - THÀNH PHỐ HÀ NỘI
+02 - THÀNH PHỐ HỒ CHÍ MINH
+03 - THÀNH PHỐ HẢI PHÒNG
+04 - THÀNH PHỐ ĐÀ NẴNG
+05 - TỈNH HÀ GIANG
+06 - TỈNH CAO BẰNG
+07 - TỈNH LAI CHÂU
+08 - TỈNH LÀO CAI
+09 - TỈNH TUYÊN QUANG
+10 - TỈNH LẠNG SƠN
+11 - TỈNH BẮC KẠN
+12 - TỈNH THÁI NGUYÊN
+13 - TỈNH YÊN BÁI
+14 - TỈNH SƠN LA
+15 - TỈNH PHÚ THỌ
+16 - TỈNH VĨNH PHÚC
+17 - TỈNH QUẢNG NINH
+18 - TỈNH BẮC GIANG
+19 - TỈNH BẮC NINH
+21 - TỈNH HẢI DƯƠNG
+22 - TỈNH HƯNG YÊN
+23 - TỈNH HÒA BÌNH
+24 - TỈNH HÀ NAM
+25 - TỈNH NAM ĐỊNH
+26 – TỈNH THÁI BÌNH
+27 – TỈNH NINH BÌNH
+28 – TỈNH THANH HÓA
+29 – TỈNH NGHỆ AN
+30 – TỈNH HÀ TĨNH
+31 – TỈNH QUẢNG BÌNH
+32 – TỈNH QUẢNG TRỊ
+33 – TỈNH THỪA THIÊN - HUẾ
+34 – TỈNH QUẢNG NAM
+35 – TỈNH QUẢNG NGÃI
+36 – TỈNH KON TUM
+37 – TỈNH BÌNH ĐỊNH
+38 – TỈNH GIA LAI
+39 – TỈNH PHÚ YÊN
+40 – TỈNH ĐẮK LẮK
+41 – TỈNH KHÁNH HÒA
+42 – TỈNH LÂM ĐỒNG
+43 – TỈNH BÌNH PHƯỚC
+44 – TỈNH BÌNH DƯƠNG
+45 – TỈNH NINH THUẬN
+46 – TỈNH TÂY NINH
+47 – TỈNH BÌNH THUẬN
+48 – TỈNH ĐỒNG NAI
+49 – TỈNH LONG AN
+50 – TỈNH ĐỒNG THÁP
+51 – TỈNH AN GIANG
+52 – TỈNH BÀ RỊA – VŨNG TÀU
+53 – TỈNH TIỀN GIANG
+54 – TỈNH KIÊN GIANG
+55 – THÀNH PHỐ CẦN THƠ
+56 – TỈNH BẾN TRE
+57 – TỈNH VĨNH LONG
+58 – TỈNH TRÀ VINH
+59 – TỈNH SÓC TRĂNG
+60 – TỈNH BẠC LIÊU
+61 – TỈNH CÀ MAU
+62 – TỈNH ĐIỆN BIÊN
+63 – TỈNH ĐĂK NÔNG
+64 – TỈNH HẬU GIANG
 ![anh1](https://github.com/user-attachments/assets/afb110dd-1716-4dd1-9d03-a514ce591431)
 
 b. Hiển thị phổ điểm thi các môn trong kì thi TNTHPT 2024
+Hiển thị phổ điểm bằng cách sử dụng các lệnh truy vấn, tuy nhiên sẽ có một số sai số. Phổ điểm chính xác vui lòng tham khảo của Bộ GD&DT
 ![anh3](https://github.com/user-attachments/assets/88394d82-9506-4f73-84fe-00b3a8274466) ![anh2](https://github.com/user-attachments/assets/8850ed90-6136-4bd2-8c60-dc12d5b75f02) ![anh4](https://github.com/user-attachments/assets/6079fbe1-ac61-4aba-a93a-f9e2c43dd7cc)
 ![anh5](https://github.com/user-attachments/assets/746830f9-a791-4102-ad2f-9717b0c928f1) ![anh6](https://github.com/user-attachments/assets/3e559ad2-680e-4887-ab1a-9bec7f7369dc)
 
