@@ -13,7 +13,6 @@
         <activity
             android:name=".tracuu.Main.SplashActivity"
             android:exported="true"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +22,6 @@
         <activity
             android:name=".tracuu.Main.MainActivity"
             android:exported="true"
-            android:screenOrientation="portrait"
             android:theme="@style/AppTheme"/>
     </application>
 </manifest>
