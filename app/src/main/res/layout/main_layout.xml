@@ -30,6 +30,7 @@
             android:id="@+id/tablayout"
             android:focusable="false"
             android:layout_width="match_parent"
+            android:layout_centerHorizontal="true"
             android:layout_height="wrap_content"
             android:paddingTop="5dp"
             android:layout_marginLeft="15dp"

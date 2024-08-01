@@ -26,7 +26,17 @@
             android:indeterminate="true"
             android:layout_gravity="center_horizontal"
             android:indeterminateTint="@color/white"/>
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Quá trình tải của ứng dụng có thể sẽ mất vài phút do lượng dữ liệu lớn"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:fontFamily="@font/sfpro_regular_italic"
+            android:textSize="18sp"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

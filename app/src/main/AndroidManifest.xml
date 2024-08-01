@@ -23,5 +23,9 @@
             android:name=".tracuu.Main.MainActivity"
             android:exported="true"
             android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".tracuu.Main.LoadingActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme"/>
     </application>
 </manifest>

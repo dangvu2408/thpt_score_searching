@@ -29,10 +29,24 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/sfpro_semibold"
                 android:textSize="18sp"/>
-            <com.github.mikephil.charting.charts.BarChart
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:id="@+id/toan_chart_2024"/>
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/toan_chart_2024"/>
+                <ProgressBar
+                    android:id="@+id/progressBarToan"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminateTint="#648EFA"/>
+            </RelativeLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -40,10 +54,23 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/sfpro_semibold"
                 android:textSize="18sp"/>
-            <com.github.mikephil.charting.charts.BarChart
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:id="@+id/van_chart_2024"/>
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/van_chart_2024"/>
+                <ProgressBar
+                    android:id="@+id/progressBarVan"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminateTint="#648EFA"/>
+            </RelativeLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,10 +78,23 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/sfpro_semibold"
                 android:textSize="18sp"/>
-            <com.github.mikephil.charting.charts.BarChart
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:id="@+id/ngoaingu_chart_2024"/>
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/ngoaingu_chart_2024"/>
+                <ProgressBar
+                    android:id="@+id/progressBarNN"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminateTint="#648EFA"/>
+            </RelativeLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -62,10 +102,23 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/sfpro_semibold"
                 android:textSize="18sp"/>
-            <com.github.mikephil.charting.charts.BarChart
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:id="@+id/vatli_chart_2024"/>
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/vatli_chart_2024"/>
+                <ProgressBar
+                    android:id="@+id/progressBarVatli"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminateTint="#648EFA"/>
+            </RelativeLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -73,10 +126,23 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/sfpro_semibold"
                 android:textSize="18sp"/>
-            <com.github.mikephil.charting.charts.BarChart
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:id="@+id/hoahoc_chart_2024"/>
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/hoahoc_chart_2024"/>
+                <ProgressBar
+                    android:id="@+id/progressBarHoahoc"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminateTint="#648EFA"/>
+            </RelativeLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -84,10 +150,23 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/sfpro_semibold"
                 android:textSize="18sp"/>
-            <com.github.mikephil.charting.charts.BarChart
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:id="@+id/sinhhoc_chart_2024"/>
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/sinhhoc_chart_2024"/>
+                <ProgressBar
+                    android:id="@+id/progressBarSinhhoc"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminateTint="#648EFA"/>
+            </RelativeLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,10 +174,23 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/sfpro_semibold"
                 android:textSize="18sp"/>
-            <com.github.mikephil.charting.charts.BarChart
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:id="@+id/lichsu_chart_2024"/>
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/lichsu_chart_2024"/>
+                <ProgressBar
+                    android:id="@+id/progressBarLichsu"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminateTint="#648EFA"/>
+            </RelativeLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -106,10 +198,23 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/sfpro_semibold"
                 android:textSize="18sp"/>
-            <com.github.mikephil.charting.charts.BarChart
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:id="@+id/diali_chart_2024"/>
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/diali_chart_2024"/>
+                <ProgressBar
+                    android:id="@+id/progressBarDiali"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminateTint="#648EFA"/>
+            </RelativeLayout>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -117,10 +222,23 @@
                 android:textColor="@color/black"
                 android:fontFamily="@font/sfpro_semibold"
                 android:textSize="18sp"/>
-            <com.github.mikephil.charting.charts.BarChart
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:id="@+id/gdcd_chart_2024"/>
+                android:layout_height="wrap_content">
+                <com.github.mikephil.charting.charts.BarChart
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/gdcd_chart_2024"/>
+                <ProgressBar
+                    android:id="@+id/progressBarGDCD"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="200dp"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_horizontal"
+                    android:indeterminateTint="#648EFA"/>
+            </RelativeLayout>
         </LinearLayout>
     </ScrollView>
 

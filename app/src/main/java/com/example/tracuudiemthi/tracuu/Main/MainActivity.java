@@ -14,6 +14,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.example.tracuudiemthi.R;
 import com.example.tracuudiemthi.tracuu.Adapter.TabLayoutAdapter;
+import com.example.tracuudiemthi.tracuu.Utils.CountingData;
 import com.google.android.material.tabs.TabLayout;
 
 import java.io.File;
@@ -40,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_layout);
-
         TabLayout tabLayout = findViewById(R.id.tablayout);
         ViewPager viewPager = findViewById(R.id.viewPager);
         TabLayoutAdapter adapter = new TabLayoutAdapter(getSupportFragmentManager());
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
             output.close();
         } catch (Exception e) {
             e.printStackTrace();
-            Log.d("Lỗi sao chép:", e.getMessage());
+            Log.d("Error 100 (File can't copy)", e.getMessage());
         }
     }
 }
