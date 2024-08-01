@@ -15,7 +15,7 @@ Từ dữ liệu đã có, thực hiện các lệnh truy vấn để hiển th�
 
 a. Tra cứu điểm thi TNTHPT 2024 \
 Người dùng nhập số báo danh (gồm 8 số trên tờ giấy dự thi hoặc trên cổng thông tin dự thi của Bộ Giáo dục và Đào tạo)
-Hai chữ số đầu tiên của số báo danh là mã Hội đồng thi (tỉnh/thành phố) của thí sinh dự thi, cụ thể:
+Hai chữ số đầu tiên của số báo danh là mã Hội đồng thi (tỉnh/thành phố) của thí sinh dự thi, cụ thể: \
 01 - THÀNH PHỐ HÀ NỘI \
 02 - THÀNH PHỐ HỒ CHÍ MINH \
 03 - THÀNH PHỐ HẢI PHÒNG \
