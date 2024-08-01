@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     };
     private static String SRC_DATABASE_NAME = "database2024.db";
     private String SRC_DATABASE_PATH = "/databases/";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

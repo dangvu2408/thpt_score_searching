@@ -19,6 +19,7 @@ import androidx.core.content.res.ResourcesCompat;
 import androidx.fragment.app.Fragment;
 
 import com.example.tracuudiemthi.R;
+import com.example.tracuudiemthi.tracuu.Main.LoadingActivity;
 import com.example.tracuudiemthi.tracuu.Model.ThongTinModel;
 import com.example.tracuudiemthi.tracuu.Render.CustomBarChartRender;
 import com.example.tracuudiemthi.tracuu.Utils.CountingData;
@@ -60,6 +61,7 @@ public class ThongKeFrag extends Fragment {
     private ArrayList<String> scoresVan = new ArrayList<>();
     private SQLiteDatabase database = null;
     private Context context;
+    public static long end, duration;
     private String data_toan_0, data_van_0, data_ngoaingu_0, data_vatli_0, data_hoahoc_0, data_sinhhoc_0, data_lichsu_0, data_diali_0, data_gdcd_0;
     public ThongKeFrag() {}
 
@@ -87,7 +89,7 @@ public class ThongKeFrag extends Fragment {
         progressBarDiaLi = view.findViewById(R.id.progressBarDiali);
         progressBarGDCD = view.findViewById(R.id.progressBarGDCD);
         this.context = getContext();
-        CountingData.getInstance().initData(context);
+//        CountingData.getInstance().initData(context);
         initLayout();
 
 
@@ -334,6 +336,9 @@ public class ThongKeFrag extends Fragment {
         diaLiChart.setData(data7);
         gdcdChart.setData(data8);
 
+        end = System.currentTimeMillis();
+        duration = end - LoadingActivity.start;
+        Log.d("Duration", String.valueOf(duration));
         return view;
     }
 
