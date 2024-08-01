@@ -43,6 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="Bản Beta"
+            android:id="@+id/appVersionName"
             android:textColor="@color/white"
             android:fontFamily="@font/sfpro_bold"
             android:textSize="20sp"/>
