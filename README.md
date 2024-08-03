@@ -1,6 +1,6 @@
-# App tra cứu điểm thi TNTHPT
+# App Android tra cứu điểm thi TNTHPT
 
-App có chức năng tra cứu điểm thi TNTHPT 2024 và thống kê phổ điểm các môn trong kỳ thi này với độ chính xác khoảng 85%... App chỉ mang tính học thuật do dữ liệu hiển thị trên app có vào chỗ không đúng với dữ liệu chính xác của Bộ Giáo dục và Đào tạo
+App có chức năng tra cứu điểm thi TNTHPT 2024 và thống kê phổ điểm các môn trong kỳ thi này với độ chính xác khoảng 85%... App chỉ mang tính học thuật do dữ liệu hiển thị trên app có vào chỗ không đúng với dữ liệu chính xác của Bộ Giáo dục và Đào tạo (chú ý nho nhỏ là app load khá lâu, cỡ ~ 6 phút do chưa tối ưu được dữ liệu của hơn 1 triệu học sinh:vv)
 
 ## 1. Về phần dữ liệu
 
